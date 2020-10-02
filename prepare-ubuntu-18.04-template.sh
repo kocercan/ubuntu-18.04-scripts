@@ -20,7 +20,7 @@ apt update -y
 apt upgrade -y
 
 #install packages
-apt install -y man traceroute wget net-tools vim git curl python3-pip snapd
+apt install -y man traceroute wget net-tools vim git curl python3-pip snapd ovirt-guest-agent
 
 #Stop services for cleanup
 service rsyslog stop
